@@ -1,0 +1,19 @@
+**/__pycache__
+**/*.pyc
+**/*.egg-info
+**/*.so
+third_party/pointops2/build
+third_party/pointops2/dist
+checkpoints/*
+!checkpoints/DOWNLOAD.md
+test*/
+.env
+outputs/
+# run artifacts
+*.log
+slurm-*.out
+nohup.out
+.lock_*
+.low_coverage_*
+wandb/
+.DS_Store
